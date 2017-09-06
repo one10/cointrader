@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 WORKING_CAPITAL = 10000
 COINBASE_FEE = 0.0199
 # thanks, Kaggle: https://www.kaggle.com/mczielinski/bitcoin-historical-data
-INPUT_FILENAME = 'coinbaseUSD_1-min_data_2014-12-01_to_2017-05-31.csv'
+INPUT_FILENAME = './data/coinbaseUSD_1-min_data_1490188860_to_1496188800.csv'
 
 
 def run_for_n_days(num_days, threshold_to_sell, print_short_stats=True, print_full_stats=False):
