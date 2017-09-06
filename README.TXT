@@ -1,1 +1,1 @@
-Back of the napkin BTC trading simulations
+Back of the napkin BTC trading simulation

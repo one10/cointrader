@@ -82,4 +82,8 @@ def run_for_n_days(num_days, threshold_to_sell, print_short_stats=True, print_fu
 
 
 if __name__ == '__main__':
-    run_for_n_days(3000, .4)
+
+    # try different thesholds
+    for i in range(1, 51, 1):
+        threshold = i / 10.0
+        run_for_n_days(3000, threshold)
